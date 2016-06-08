@@ -10,10 +10,9 @@ var mongoose = require('mongoose');
 var jwt = require('jsonwebtoken');
 var moment = require('moment');
 var request = require('request');
-var qs = require('querystring');
 
 // Load environment variables from .env file
-dotenv.load();
+dotenv.load({ path: '.env.example' });
 
 // Models
 var User = require('./models/user');
