@@ -22,9 +22,7 @@
     "mongoose": "^4.4.8",
     "morgan": "^1.7.0",
     "nodemailer": "^2.3.0",
-    "request": "^2.69.0"
-  },
-  "devDependencies": {
+    "request": "^2.69.0",
     "gulp": "git+https://git@github.com/gulpjs/gulp.git#4.0",
     "gulp-angular-templatecache": "latest",
     "gulp-autoprefixer": "^3.1.0",
@@ -38,6 +36,9 @@
     "gulp-util": "^3.0.7",
     "vinyl-buffer": "^1.0.0",
     "yargs": "^4.3.2"
+  },
+  "devDependencies": {
+
   },
   "engines": {
     "node": "6.1.0"
